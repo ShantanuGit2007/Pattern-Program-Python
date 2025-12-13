@@ -1,4 +1,4 @@
-#01_Star 
+# 01_Star 
 * 
 * * 
 * * * 
@@ -13,7 +13,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
-#02_Star
+# 02_Star
 * * * * * * * 
 * * * * * * 
 * * * * * 
@@ -28,7 +28,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
-#03_Star
+# 03_Star
               * 
             * * 
           * * * 
@@ -45,7 +45,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
-#04_Star
+# 04_Star
   * * * * * * * 
     * * * * * * 
       * * * * * 
