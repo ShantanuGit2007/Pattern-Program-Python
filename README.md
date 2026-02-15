@@ -1,5 +1,5 @@
 <b>Star Pattern:<b><br>
-[Star_triangle](https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Star_triangles)<br>
+[Star_triangle](https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Star_triangles.py)<br>
 [Pyramid_Star_triangles](https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Pyramid_Star_triangles)<br>
 [Advance_Star_triangles](https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Advance_Star_triangles)<br>
 [Hollow_star_Triangle](https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Hollow_Star_Triangle)
