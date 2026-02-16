@@ -29,13 +29,115 @@ for i in range(n):
 '''
 n=int(input("Enter Number of Rows: "))
 for i in range(n):
-    for j in range(i+1):
+    for j in range(n):
         if j==0 or i==n-1 or j==i:
             print("*",end=" ")
         else:
             print(" ",end=" ")
     print()
+
 '''
 #03_Star
-Comming Soon.....
+* * * * * * * 
+*         *   
+*       *     
+*     *       
+*   *
+* *
+*
 '''
+n=int(input("Enter Number of Rows: "))
+for i in range(n):
+    for j in range(n):
+        if j==0 or i==0 or j==n-1-i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+'''
+#04_Star
+            * 
+          * * 
+        *   * 
+      *     * 
+    *       * 
+  *         * 
+* * * * * * * 
+'''
+n=int(input("Enter Number of Rows: "))
+for i in range(n):
+    for j in range(n):
+        if j==n-1 or i==n-1 or j==n-1-i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+'''
+#05_Star
+* * * * * * * 
+  *         * 
+    *       * 
+      *     * 
+        *   * 
+          * * 
+            * 
+'''
+n=int(input("Enter Number of Rows: "))
+for i in range(n):
+    for j in range(n):
+        if j==n-1 or i==0 or j==i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+'''
+#06_Star
+            * *
+          *     *
+        *         *
+      *             *       
+    *                 *     
+  *                     *   
+* * * * * * * * * * * * * * 
+'''
+n=int(input("Enter Number of Rows: "))
+for i in range(n):
+    for j in range(n):
+        if i==n-1 or j==n-1-i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    for j in range(n):
+        if i==n-1 or j==i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+    
+'''
+# 07_star
+* * * * * * * * * * * * * * 
+  *                     *   
+    *                 *     
+      *             *       
+        *         *
+          *     *
+            * *
+'''
+n=int(input("Enter Number of Rows: "))
+for i in range(n):
+    for j in range(n):
+        if i==0 or j==i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    for j in range(n):
+        if i==0 or j==n-1-i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
