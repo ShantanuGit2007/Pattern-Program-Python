@@ -14,10 +14,10 @@ Feel free to explore the repository, practice the problems, and contribute if yo
 <h2>📂 Pattern Programs Included</h2>
 
 <ul>
-<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Star_triangles.py">1. Star Triangle</a></li>
-<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Pyramid_Star_triangles">2. Pyramid Star Triangle</a></li>
-<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Advance_Star_triangles.py">3. Advanced Star Triangle</a></li>
-<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/Hollow_Star_Triangle">4. Hollow Star Triangle</a></li>
+<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/01_Star_triangles.py">1. Star Triangle</a></li>
+<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/02_Pyramid_Star_triangles.py">2. Pyramid Star Triangle</a></li>
+<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/03_Advance_Star_triangles.py">3. Advanced Star Triangle</a></li>
+<li><a href="https://github.com/ShantanuGit2007/Pattern-Program-Python/blob/main/04_Hollow_Star_Triangle.py">4. Hollow Star Triangle</a></li>
 </ul>
 
 <hr>
