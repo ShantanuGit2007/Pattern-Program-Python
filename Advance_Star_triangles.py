@@ -1,3 +1,4 @@
+'''
 # 01_Star
               * 
             * * * 
@@ -12,6 +13,7 @@
           * * * * * 
             * * * 
               * 
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-1):
     for j in range(i,n):
@@ -30,6 +32,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
+'''
 # 02_Star
   * * * * * * * * * * * * * 
     * * * * * * * * * * *
@@ -44,6 +47,7 @@ for i in range(n):
       * * * * * * * * *
     * * * * * * * * * * *
   * * * * * * * * * * * * *
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-1):
     for j in range(i+1):
@@ -62,6 +66,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
+'''
 # 03_Star
               * 
             * * * 
@@ -80,6 +85,7 @@ for i in range(n):
             * * * 
           * * * * * 
         * * * * * * *
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-1):
     for j in range(i,n):
@@ -106,6 +112,7 @@ for i in range(n-3):
         print("*",end=" ")
     print()
 
+'''
 # 04_Star
 * * * * * * * 
 * * * * * * 
@@ -120,6 +127,7 @@ for i in range(n-3):
 * * * * * 
 * * * * * * 
 * * * * * * * 
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-1):
     for j in range(i,n):
@@ -128,8 +136,10 @@ for i in range(n-1):
 for i in range(n):
     for j in range(i+1):
         print("*",end=" ")
+
     print()
 
+'''
 # 05_Star
 * * * * * * * * * * * * * * 
 * * * * * *     * * * * * * 
@@ -143,7 +153,8 @@ for i in range(n):
 * * * *             * * * * 
 * * * * *         * * * * * 
 * * * * * *     * * * * * * 
-* * * * * * * * * * * * * * 
+* * * * * * * * * * * * * *
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-1):
     for j in range(i,n):
@@ -166,6 +177,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
+'''
 # 06_Star
 *                         * 
 * *                     * * 
@@ -180,6 +192,7 @@ for i in range(n):
 * * *                 * * * 
 * *                     * * 
 *                         * 
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-1):
     for j in range(i+1):
@@ -202,6 +215,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
+'''
 # 07_Star
               * 
             * * * 
@@ -211,6 +225,7 @@ for i in range(n):
     * * * * * * * * * * * 
       * * * * * * * * * 
         * * * * * * * 
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-3):
     for j in range(i,n):
@@ -229,6 +244,7 @@ for i in range(n-3):
         print("*",end=" ")
     print()
 
+'''
 # 08_Star
 *         *       * 
   *       *     *   
@@ -239,8 +255,8 @@ for i in range(n-3):
       *   * *       
     *     *   *     
   *       *     *   
-*         *       * ]
-
+*         *       * 
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n):
     for j in range(n):
@@ -250,6 +266,7 @@ for i in range(n):
             print(" ", end=" ")
     print()
 
+'''
 # 09_Star
         *
        ***
@@ -272,6 +289,7 @@ for i in range(n):
       ***      
       ***      
       ***
+'''
 n = int(input("Enter Number of Rows: "))
 def pyramid():
     for i in range(n):
@@ -287,6 +305,7 @@ for i in range(n):
             print(" ", end="")
     print()
 
+'''
 # 10_Star
   * * * * * * * 
    * * * * * * 
@@ -306,6 +325,7 @@ for i in range(n):
   * * * * * * *
    * * * * * *
     * * * * *
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(n-3):
     print(" "*i, end=" ")
@@ -326,7 +346,8 @@ for i in range(n-4):
     print(" "*i, end=" ")
     print(" *"*(n-i),end=" ")
     print()
-
+    
+'''
 #11_Star
           * * * * *                 * * * * * 
         * * * * * * *             * * * * * * * 
@@ -346,7 +367,8 @@ for i in range(n-4):
                       * * * * * * * 
                         * * * * * 
                           * * * 
-                            * 
+                            *
+'''
 n=int(input("Enter Number of Rows: "))
 for i in range(2,n):
     for j in range(i,n):
